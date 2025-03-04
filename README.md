@@ -16,24 +16,24 @@ matplotlib: Data visualization.
 
 # Usage
 
-Download and Preprocess Data:
+**Download and Preprocess Data:**
 
 The script downloads historical S&P 500 data using yfinance and saves it to a CSV file.
 
 It preprocesses the data by adding features like "Tomorrow" and "Target".
 
-Train the Model:
+**Train the Model:**
 
 The data is split into training and test sets.
 
 A Random Forest Classifier is trained on the training data.
 
-Evaluate the Model:
+**Evaluate the Model:**
 
 The model's precision is evaluated on the test set.
 
 Results are visualized using matplotlib.
 
-Run the Code:
+**Run the Code:**
 
 Clone the repository and run the Jupyter notebook or Python script.
